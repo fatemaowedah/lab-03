@@ -2,20 +2,21 @@ header{
     width: 100%;
     color: navy;
 }
-section{
+ /* section{
     margin-top: 0px;
     display: hidden;
-    width: 80%;
+    width: 100%;
     margin-top: auto;
     margin-left: auto;
-}
+}  */
 div{
     width: 20%;
-    float: left;
     margin: 0px auto;
     margin-left: 55px;
-    display: inline-block;
-    min-height: 500px;
+    height: 70%;
+} 
+body{
+    width: 100%;
 }
 h1{
     text-align: center;
@@ -24,9 +25,11 @@ h1{
     font-family: 'Comic Neue', cursive;
 }
 select{
-    margin: 26px 580px;
+    margin: auto;
     height: 46px;
-    width: 200px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
 }
 h2{
     text-align: center;
@@ -48,4 +51,11 @@ footer{
     margin-bottom: 20px;
     font-family: 'Comic Neue', cursive;
     
+}
+input {
+    height: 46px;
+    width: 136px;
+    margin: 12px;
+    display: flex;
+    justify-content: center;
 }
